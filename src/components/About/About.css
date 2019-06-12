@@ -1,0 +1,84 @@
+.Static {
+    width: 358px;
+    height: 500px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../weather.png') ;
+    background-size: 358px 500px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 8px 0;
+}
+
+.Static p {
+    font-size: 24px;
+    margin: 2px 0;
+    font-weight: 500;
+}
+
+button {
+    margin: 4px 0 4px 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #F1746D;
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 1px rgba(130,130,130,0.2);
+    outline: none;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+button:hover {
+    background-color: #F28982;
+}
+
+button:active {
+    box-shadow: 0 0 5px rgba(130,130,130,0.4);
+    background-color:  #F1746D;
+    outline: none;
+    border-color: none;
+}
+
+input {
+    width: 300px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: medium;
+    text-align: center;
+    color: #827878;
+    margin: 4px 0;
+    border: none;
+    border-bottom: 2px solid #E9E9E9;
+    outline: none;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.Main {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Red {
+    color: red;
+    margin: 8px 0 8px 0;
+    line-height: 18px;
+}
+
+.About {
+    display: flex;
+    height: 100%;
+}

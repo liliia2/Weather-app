@@ -1,0 +1,19 @@
+.Weather {
+    color: #323232;
+    height: 100%;
+}
+
+.Weather p {
+    font-size: 18px;
+    line-height: 16px;
+}
+
+h2 {
+    font-size: 24px; 
+}
+
+img {
+    height: 24px;
+    width: 24px;
+    margin: 0px 8px -6px 0px;
+}

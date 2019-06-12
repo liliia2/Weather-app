@@ -1,0 +1,59 @@
+.All {
+    box-shadow: 0 0 20px rgba(130,130,130,0.5);
+    background-color: #ffffff;
+    width: 958px;
+    height: 500px;
+    display: flex;
+}
+
+h2 {
+    margin: 8px 0;
+    color: #323232;
+}
+
+@media (min-width: 304px) {
+    .All {
+        width: 100%;
+        justify-content: center;
+    }
+    .Main {
+        width: 100%;
+    }
+    .Static {
+        width: 0px;
+    }
+    .Static h1, .Static p{
+        width: 0px;
+    }
+}
+
+@media (min-width: 668px) {
+    .All {
+        width: 668px;
+    }
+    .Main {
+        width: 310px;
+    }
+    .Static {
+        width: 358px;
+    }
+    .Static h1, .Static p{
+        width: 358px;
+    }
+}
+
+@media (min-width: 958px) {
+    .All {
+        width: 958px;
+    }
+    .Main {
+        width: 600px;
+    }
+    .Static {
+        width: 358px;
+    }
+    .Static h1, .Static p{
+        width: 358px;
+    }
+}
+
